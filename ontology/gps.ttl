@@ -20,8 +20,9 @@
                                                         gpp: ;
                                             dct:abstract "Add-on module mapping the FIM building block Leistung (master text and service profile) from the XZuFi standard. It enriches the Leistung class of the GerPS-Process ontology and links it to processes, data schemas and code lists of the GerPS ecosystem."@en ,
                                                          "Add-on-Modul zur Abbildung des FIM-Bausteins Leistung (Stammtext und Leistungssteckbrief) aus dem XZuFi-Standard. Reichert die Klasse Leistung der GerPS-Process-Ontologie an und verknüpft sie mit Prozessen, Datenschemata und Codelisten des GerPS-Ökosystems."@de ;
-                                            dct:contributor "Maximilian Enderling" ,
-                                                            "Norman Klewer" ;
+                                            dct:contributor "Norman Klewer",
+                                                            "Maximilian Enderling" ,
+                                                            "Heinz Conti Zacherl";
                                             dct:creator "openDVA" ;
                                             dct:license <http://creativecommons.org/licenses/by/4.0/> ;
                                             dct:title "GerPS-Leistung"@de ,
