@@ -20,8 +20,7 @@
                                                         gpp: ;
                                             dct:abstract "Add-on module mapping the FIM building block Leistung (master text and service profile) from the XZuFi standard. It enriches the Leistung class of the GerPS-Process ontology and links it to processes, data schemas and code lists of the GerPS ecosystem."@en ,
                                                          "Add-on-Modul zur Abbildung des FIM-Bausteins Leistung (Stammtext und Leistungssteckbrief) aus dem XZuFi-Standard. Reichert die Klasse Leistung der GerPS-Process-Ontologie an und verknüpft sie mit Prozessen, Datenschemata und Codelisten des GerPS-Ökosystems."@de ;
-                                            dct:contributor "Heinz Conti Zacherl" ,
-                                                            "Maximilian Enderling" ,
+                                            dct:contributor "Maximilian Enderling" ,
                                                             "Norman Klewer" ;
                                             dct:creator "openDVA" ;
                                             dct:license <http://creativecommons.org/licenses/by/4.0/> ;
@@ -278,7 +277,7 @@ gps:GPS_0000042 rdf:type owl:DatatypeProperty ;
 gps:GPS_0000043 rdf:type owl:DatatypeProperty ;
                 rdfs:domain gpp:GPP_0000004 ;
                 rdfs:range rdf:langString ;
-                rdfs:comment "Ausführliche Leistungsbeschreibung. Entspricht dct:description."@de ,
+                rdfs:comment "Ausführliche Leistungsbeschreibung."@de ,
                              "Full service description."@en ;
                 rdfs:label "has full description"@en ,
                            "hat Volltext"@de ;
@@ -493,28 +492,6 @@ gps:GPS_0000063 rdf:type owl:DatatypeProperty ;
                 rdfs:label "fachlich freigegeben durch"@de ,
                            "professionally released by"@en ;
                 gps:GPS_0000068 "modulFachlicheFreigabe/fachlichFreigegebenDurch" .
-
-
-###  https://w3id.org/gerps/ontology/service/GPS_0000064
-gps:GPS_0000064 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
-                rdfs:range xsd:dateTime ;
-                rdfs:comment "Creation timestamp."@en ,
-                             "Erstellungszeitpunkt. Entspricht dct:created."@de ;
-                rdfs:label "created on"@en ,
-                           "erstellt am"@de ;
-                gps:GPS_0000068 "versionsinformation/erstelltDatumZeit" .
-
-
-###  https://w3id.org/gerps/ontology/service/GPS_0000065
-gps:GPS_0000065 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
-                rdfs:range xsd:dateTime ;
-                rdfs:comment "Modification timestamp."@en ,
-                             "Änderungszeitpunkt. Entspricht dct:modified."@de ;
-                rdfs:label "geändert am"@de ,
-                           "modified on"@en ;
-                gps:GPS_0000068 "versionsinformation/geaendertDatumZeit" .
 
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000066
