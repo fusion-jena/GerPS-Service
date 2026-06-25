@@ -517,6 +517,17 @@ gps:GPS_0000067 rdf:type owl:DatatypeProperty ;
                 gps:GPS_0000068 "Leistung/kennzeichenFormularFormlos" .
 
 
+###  https://w3id.org/gerps/ontology/service/GPS_0000069
+gps:GPS_0000069 rdf:type owl:DatatypeProperty ;
+                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Editorial body responsible for the source content of the service."@en ,
+                             "Redaktion, die für den Quellinhalt der Leistung verantwortlich ist."@de ;
+                rdfs:label "has source editorial"@en ,
+                           "hat Quellredaktion"@de ;
+                gps:GPS_0000068 "metadata" .
+
+
 #################################################################
 #    Classes
 #################################################################
