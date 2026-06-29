@@ -82,7 +82,7 @@ xsd:dateTime rdf:type rdfs:Datatype .
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000020
 gps:GPS_0000020 rdf:type owl:ObjectProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range gpc:urn_xoev_de_fim_codeliste_xzufi_leistungsadressat ;
                 rdfs:comment "Links a service to its recipient group."@en ,
                              "Verknüpft eine Leistung mit ihrem Leistungsadressaten."@de ;
@@ -93,7 +93,7 @@ gps:GPS_0000020 rdf:type owl:ObjectProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000021
 gps:GPS_0000021 rdf:type owl:ObjectProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range gpc:urn_de_fim_leika_verrichtung ;
                 rdfs:comment "Links a service to its Verrichtung (action)."@en ,
                              "Verknüpft eine Leistung mit ihrer Verrichtung (LOV/LOVD)."@de ;
@@ -104,7 +104,7 @@ gps:GPS_0000021 rdf:type owl:ObjectProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000022
 gps:GPS_0000022 rdf:type owl:ObjectProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range gpc:urn_de_fim_leika_typisierung ;
                 rdfs:comment "LeiKa typing of the service."@en ,
                              "Typisierung der Leistung nach LeiKa."@de ;
@@ -115,7 +115,7 @@ gps:GPS_0000022 rdf:type owl:ObjectProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000023
 gps:GPS_0000023 rdf:type owl:ObjectProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range gpc:urn_xoev_de_fim_codeliste_vertrauensniveau ;
                 rdfs:comment "Level of assurance (eIDAS)."@en ,
                              "Vertrauensniveau nach eIDAS."@de ;
@@ -126,7 +126,7 @@ gps:GPS_0000023 rdf:type owl:ObjectProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000024
 gps:GPS_0000024 rdf:type owl:ObjectProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range gpc:urn_xoev_de_fim_codeliste_status ;
                 rdfs:comment "Editorial status of the catalogue entry (service profile)."@en ,
                              "Redaktioneller Status des Katalogeintrags (Leistungssteckbrief)."@de ;
@@ -137,7 +137,7 @@ gps:GPS_0000024 rdf:type owl:ObjectProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000025
 gps:GPS_0000025 rdf:type owl:ObjectProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range gpc:urn_xoev_de_fim_codeliste_status ;
                 rdfs:comment "Editorial status of the library entry (master text)."@en ,
                              "Redaktioneller Status des Bibliothekseintrags (Stammtext)."@de ;
@@ -148,7 +148,7 @@ gps:GPS_0000025 rdf:type owl:ObjectProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000026
 gps:GPS_0000026 rdf:type owl:ObjectProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range gpc:urn_xoev_de_xprozess_codeliste_detaillierungsstufe ;
                 rdfs:comment "Detaillierungsstufe der Leistung. Unterscheidet Stammtext (Stamminformation) von lokalem Steckbrief (Lokalinformation)."@de ,
                              "Level of detail of the service. Distinguishes master text from local profile."@en ;
@@ -159,7 +159,7 @@ gps:GPS_0000026 rdf:type owl:ObjectProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000027
 gps:GPS_0000027 rdf:type owl:ObjectProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range gpc:urn_xoev_de_fim_codeliste_sdginformationsbereich ;
                 rdfs:comment "Informationsbereich nach SDG-Verordnung."@de ,
                              "SDG information area."@en ;
@@ -170,7 +170,7 @@ gps:GPS_0000027 rdf:type owl:ObjectProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000028
 gps:GPS_0000028 rdf:type owl:ObjectProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range gpc:Codelist ;
                 rdfs:comment "Category or life situation of the service. Free categories may be dropped (acceptable information loss)."@en ,
                              "Kategorie/Lebenslage der Leistung. Frei vergebene Kategorien können entfallen (Informationsverlust akzeptiert)."@de ;
@@ -181,7 +181,7 @@ gps:GPS_0000028 rdf:type owl:ObjectProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000029
 gps:GPS_0000029 rdf:type owl:ObjectProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range gpp:GPP_0000002 ;
                 rdfs:comment "Documents required in the procedure."@en ,
                              "Im Verfahren erforderliche Dokumente."@de ;
@@ -192,7 +192,7 @@ gps:GPS_0000029 rdf:type owl:ObjectProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000030
 gps:GPS_0000030 rdf:type owl:ObjectProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range gpp:GPP_0000003 ;
                 rdfs:comment "Legal basis of the service."@en ,
                              "Rechtsgrundlage(n) der Leistung."@de ;
@@ -203,7 +203,7 @@ gps:GPS_0000030 rdf:type owl:ObjectProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000031
 gps:GPS_0000031 rdf:type owl:ObjectProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range m8g:Cost ;
                 rdfs:comment "Structured cost of the service."@en ,
                              "Strukturierte Kosten/Gebühren der Leistung."@de ;
@@ -214,13 +214,23 @@ gps:GPS_0000031 rdf:type owl:ObjectProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000033
 gps:GPS_0000033 rdf:type owl:ObjectProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
-                rdfs:range gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
+                rdfs:range gps:GPS_0000070 ;
                 rdfs:comment "Links services in the same context."@en ,
                              "Verknüpft Leistungen im selben Kontext."@de ;
                 rdfs:label "has related service"@en ,
                            "hat verwandte Leistung"@de ;
                 gps:GPS_0000068 "Leistung/leistungImKontextID" .
+
+
+###  https://w3id.org/gerps/ontology/service/GPS_0000075
+gps:GPS_0000075 rdf:type owl:ObjectProperty ;
+                rdfs:domain gps:GPS_0000070 ;
+                rdfs:range gps:GPS_0000071 ;
+                rdfs:comment "Indicates the modelling level of the service description (Steckbrief, Stammtext, or Lokaltext)."@en ,
+                             "Gibt die Modellierungsebene der Leistungsbeschreibung an (Steckbrief, Stammtext oder Lokaltext)."@de ;
+                rdfs:label "has modelling level"@en ,
+                           "hat Modellierungsebene"@de .
 
 
 #################################################################
@@ -233,7 +243,7 @@ dcat:keyword rdf:type owl:DatatypeProperty .
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000036
 gps:GPS_0000036 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:comment "Area to which the specialisation applies."@en ,
                              "Gebiet, für das die Spezialisierung gilt."@de ;
                 rdfs:label "applies to area"@en ,
@@ -243,7 +253,7 @@ gps:GPS_0000036 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000040
 gps:GPS_0000040 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Official service title."@en ,
                              "Offizielle Bezeichnung der Leistung."@de ;
@@ -254,7 +264,7 @@ gps:GPS_0000040 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000041
 gps:GPS_0000041 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Bürgernahe/alternative Bezeichnung."@de ,
                              "Citizen-oriented alternative title."@en ;
@@ -265,7 +275,7 @@ gps:GPS_0000041 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000042
 gps:GPS_0000042 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Kurztext."@de ,
                              "Short text."@en ;
@@ -276,7 +286,7 @@ gps:GPS_0000042 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000043
 gps:GPS_0000043 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Ausführliche Leistungsbeschreibung."@de ,
                              "Full service description."@en ;
@@ -287,7 +297,7 @@ gps:GPS_0000043 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000044
 gps:GPS_0000044 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Preconditions for using the service."@en ,
                              "Voraussetzungen für die Inanspruchnahme."@de ;
@@ -298,7 +308,7 @@ gps:GPS_0000044 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000045
 gps:GPS_0000045 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Ablauf des Verfahrens."@de ,
                              "Procedure."@en ;
@@ -309,7 +319,7 @@ gps:GPS_0000045 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000046
 gps:GPS_0000046 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Textual description of required documents. Structured documents see gps:GPS_0000029."@en ,
                              "Textuelle Beschreibung beizubringender Unterlagen. Strukturierte Dokumente siehe gps:GPS_0000029."@de ;
@@ -320,7 +330,7 @@ gps:GPS_0000046 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000047
 gps:GPS_0000047 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Besonderheiten/Hinweise."@de ,
                              "Notes/particularities."@en ;
@@ -331,7 +341,7 @@ gps:GPS_0000047 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000048
 gps:GPS_0000048 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Textual cost description. Structured cost see gps:GPS_0000031."@en ,
                              "Textuelle Beschreibung der Kosten. Strukturierte Kosten s. gps:GPS_0000031."@de ;
@@ -342,7 +352,7 @@ gps:GPS_0000048 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000049
 gps:GPS_0000049 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Textual description of deadlines."@en ,
                              "Textuelle Beschreibung von Fristen."@de ;
@@ -353,7 +363,7 @@ gps:GPS_0000049 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000050
 gps:GPS_0000050 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Textual processing-time description."@en ,
                              "Textuelle Beschreibung der Bearbeitungsdauer."@de ;
@@ -364,7 +374,7 @@ gps:GPS_0000050 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000051
 gps:GPS_0000051 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Available legal remedies."@en ,
                              "Mögliche Rechtsbehelfe."@de ;
@@ -375,7 +385,7 @@ gps:GPS_0000051 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000052
 gps:GPS_0000052 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Textual point of contact. Organisational units are out of scope."@en ,
                              "Textueller Ansprechpunkt. Organisationseinheiten selbst sind ausserhalb des Scopes."@de ;
@@ -386,7 +396,7 @@ gps:GPS_0000052 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000053
 gps:GPS_0000053 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Further information."@en ,
                              "Weiterführende Informationen."@de ;
@@ -398,7 +408,7 @@ gps:GPS_0000053 rdf:type owl:DatatypeProperty ;
 ###  https://w3id.org/gerps/ontology/service/GPS_0000054
 gps:GPS_0000054 rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf dcat:keyword ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Synonyme/Stichwörter zur Leistung (wiederholbar)."@de ,
                              "Synonyms/keywords for the service (repeatable)."@en ;
@@ -409,7 +419,7 @@ gps:GPS_0000054 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000055
 gps:GPS_0000055 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Forms."@en ,
                              "Formulare."@de ;
@@ -420,7 +430,7 @@ gps:GPS_0000055 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000056
 gps:GPS_0000056 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Copyright."@en ,
                              "Urheber."@de ;
@@ -431,7 +441,7 @@ gps:GPS_0000056 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000057
 gps:GPS_0000057 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Competent office."@en ,
                              "Zuständige Stelle."@de ;
@@ -442,7 +452,7 @@ gps:GPS_0000057 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000058
 gps:GPS_0000058 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Teaser."@de ,
                              "Teaser."@en ;
@@ -453,7 +463,7 @@ gps:GPS_0000058 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000060
 gps:GPS_0000060 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range xsd:string ;
                 rdfs:comment "Primary XZuFi id of the service (e.g. TSA Leika object id)."@en ,
                              "Primäre XZuFi-ID der Leistung (z. B. TSA Leika ObjektID)."@de ;
@@ -464,7 +474,7 @@ gps:GPS_0000060 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000061
 gps:GPS_0000061 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Verrichtung detail (LOVD)."@en ,
                              "Verrichtungsdetail (LOVD)."@de ;
@@ -475,7 +485,7 @@ gps:GPS_0000061 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000062
 gps:GPS_0000062 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range xsd:date ;
                 rdfs:comment "Date of professional release."@en ,
                              "Datum der fachlichen Freigabe."@de ;
@@ -486,7 +496,7 @@ gps:GPS_0000062 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000063
 gps:GPS_0000063 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range rdf:langString ;
                 rdfs:comment "Body issuing the professional release."@en ,
                              "Stelle der fachlichen Freigabe."@de ;
@@ -497,7 +507,7 @@ gps:GPS_0000063 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000066
 gps:GPS_0000066 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range xsd:anyURI ;
                 rdfs:comment "Link to the service in its origin portal."@en ,
                              "Link zur Ansicht der Leistung im Ursprungsportal."@de ;
@@ -508,7 +518,7 @@ gps:GPS_0000066 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000067
 gps:GPS_0000067 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range xsd:boolean ;
                 rdfs:comment "Flag for informal application."@en ,
                              "Kennzeichen formlose Antragstellung."@de ;
@@ -519,7 +529,7 @@ gps:GPS_0000067 rdf:type owl:DatatypeProperty ;
 
 ###  https://w3id.org/gerps/ontology/service/GPS_0000069
 gps:GPS_0000069 rdf:type owl:DatatypeProperty ;
-                rdfs:domain gpp:GPP_0000004 ;
+                rdfs:domain gps:GPS_0000070 ;
                 rdfs:range xsd:string ;
                 rdfs:comment "Editorial body responsible for the source content of the service."@en ,
                              "Redaktion, die für den Quellinhalt der Leistung verantwortlich ist."@de ;
@@ -531,6 +541,15 @@ gps:GPS_0000069 rdf:type owl:DatatypeProperty ;
 #################################################################
 #    Classes
 #################################################################
+
+###  https://w3id.org/gerps/ontology/service/GPS_0000070
+gps:GPS_0000070 rdf:type owl:Class ;
+                rdfs:subClassOf gpp:GPP_0000004 ;
+                rdfs:comment "A public service as described in the XZuFi standard."@en ,
+                             "Eine Verwaltungsleistung gemäß XZuFi-Standard."@de ;
+                rdfs:label "XZuFi Service"@en ,
+                           "XZuFi-Leistung"@de .
+
 
 ###  http://data.europa.eu/m8g/Cost
 m8g:Cost rdf:type owl:Class .
@@ -566,6 +585,39 @@ gpc:urn_xoev_de_fim_codeliste_xzufi_leistungsadressat rdf:type owl:Class .
 
 ###  https://w3id.org/gerps/ontology/codelist/urn_xoev_de_xprozess_codeliste_detaillierungsstufe
 gpc:urn_xoev_de_xprozess_codeliste_detaillierungsstufe rdf:type owl:Class .
+
+
+###  https://w3id.org/gerps/ontology/service/GPS_0000071
+gps:GPS_0000071 rdf:type owl:Class ;
+                rdfs:comment "Level of modelling of an XZuFi service description."@en ,
+                             "Modellierungsebene einer XZuFi-Leistungsbeschreibung."@de ;
+                rdfs:label "Modelling Level"@en ,
+                           "Modellierungsebene"@de .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/gerps/ontology/service/GPS_0000072
+gps:GPS_0000072 rdf:type owl:NamedIndividual ,
+                          gps:GPS_0000071 ;
+                rdfs:label "Steckbrief"@de ,
+                           "Service Profile"@en .
+
+
+###  https://w3id.org/gerps/ontology/service/GPS_0000073
+gps:GPS_0000073 rdf:type owl:NamedIndividual ,
+                          gps:GPS_0000071 ;
+                rdfs:label "Stammtext"@de ,
+                           "Master Text"@en .
+
+
+###  https://w3id.org/gerps/ontology/service/GPS_0000074
+gps:GPS_0000074 rdf:type owl:NamedIndividual ,
+                          gps:GPS_0000071 ;
+                rdfs:label "Lokaltext"@de ,
+                           "Local Text"@en .
 
 
 ###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
